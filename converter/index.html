@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage and CGPA Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Percentage & CGPA Converter</h1>
+        <div>
+            <label for="conversionType">Choose Conversion:</label>
+            <select id="conversionType">
+                <option value="toCGPA">Percentage to CGPA</option>
+                <option value="toPercentage">CGPA to Percentage</option>
+            </select>
+        </div>
+        
+        <div class="input-group">
+            <label for="inputValue">Enter your value:</label>
+            <input type="number" id="inputValue" placeholder="Value" required>
+        </div>
+        
+        <button id="convertBtn">Convert</button>
+        <h2 id="result" style="display:none;"></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
